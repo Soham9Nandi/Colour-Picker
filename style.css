@@ -1,0 +1,19 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	height: 70vh;
+	width: 100%;
+}
+
+.show-colour {
+	width: 100vb;
+	height: 30vh;
+	border: solid black 2px;
+	transition: background-color 1s ease;
+}
+
+button {
+	margin: 50px;
+}
